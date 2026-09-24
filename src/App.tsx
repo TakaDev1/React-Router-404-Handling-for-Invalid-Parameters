@@ -5,12 +5,14 @@ import Article from "./pages/Article";
 function App() {
   return (
     <>
-      <BrowserRouter>
-        <h1>React-Router-404-Handling-for-Invalid-Parameters</h1>
-        <Routes>
-          <Route path="/article/:id" element={<Article />} />
-        </Routes>
-      </BrowserRouter>
+      <div>
+        <BrowserRouter>
+          <h1>React-Router-404-Handling-for-Invalid-Parameters</h1>
+          <Routes>
+            <Route path="/article/:id" element={<Article />} />
+          </Routes>
+        </BrowserRouter>
+      </div>
     </>
   );
 }
