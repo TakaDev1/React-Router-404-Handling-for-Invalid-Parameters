@@ -15,4 +15,4 @@ const Articles: Record<number, Article> = {
   },
 };
 
-export default { Articles };
+export default Articles;
