@@ -12,7 +12,7 @@ const Article = () => {
 
   return (
     <div>
-      <p>Title: {subjectArticle.title}</p>
+      <p className="text-3xl text-blue-300">Title: {subjectArticle.title}</p>
     </div>
   );
 };

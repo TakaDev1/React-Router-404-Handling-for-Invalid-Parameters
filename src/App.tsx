@@ -5,9 +5,9 @@ import Article from "./pages/Article";
 function App() {
   return (
     <>
-      <div>
+      <div className="min-h-screen bg-gray-800 flex flex-col justify-center">
         <BrowserRouter>
-          <h1>React-Router-404-Handling-for-Invalid-Parameters</h1>
+          <h1 className="text-sm">React-Router-404-Handling-for-Invalid-Parameters</h1>
           <Routes>
             <Route path="/article/:id" element={<Article />} />
           </Routes>
